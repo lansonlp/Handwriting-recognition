@@ -2,9 +2,9 @@
 import matplotlib
 matplotlib.use("Agg")
 
-from mukarram.models import ResNet
-from mukarram.az_dataset import load_mnist_dataset
-from mukarram.az_dataset import load_az_dataset
+from lanson.models import ResNet
+from lanson.az_dataset import load_mnist_dataset
+from lanson.az_dataset import load_az_dataset
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import SGD
 from sklearn.preprocessing import LabelBinarizer
